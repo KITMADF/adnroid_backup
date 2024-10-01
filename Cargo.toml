@@ -1,0 +1,14 @@
+[package]
+name = "android_backup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ftp = "3.0.1"
+
+
+[target.aarch64-linux-android]
+linker = "C:\\Users\\KIT.B01\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android21-clang"
+ar = "C:\\Users\\KIT.B01\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-ar.exe"
+
+
